@@ -35,3 +35,30 @@ else
 
 /*Task3: Напишите программу, которая на вход принимает число и выдаёт,
  является ли число чётным (делится ли оно на два без остатка).*/
+/*
+Console.Write("Input a number: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+if (number%2 == 0)
+    Console.WriteLine("number is even ");
+else
+    Console.WriteLine("number is not even");
+
+*/
+// Task4: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+
+
+Console.Write("Input a pozitiv number: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+int current = 1;
+while (current <= number)
+{
+    if (current%2 == 0)
+    {
+        Console.Write(" " + current);
+        current++;
+    }
+    else
+        current++;
+}
