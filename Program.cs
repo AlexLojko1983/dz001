@@ -55,10 +55,6 @@ int current = 1;
 while (current <= number)
 {
     if (current%2 == 0)
-    {
         Console.Write(" " + current);
-        current++;
-    }
-    else
-        current++;
+    current++;
 }
